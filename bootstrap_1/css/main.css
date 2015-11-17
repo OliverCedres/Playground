@@ -1,0 +1,10 @@
+body {
+	padding-top: 70px; 
+}
+.features .glyphicon {
+	font-size: 32px;
+}
+.container#footer {
+	background: #333;
+	color: white;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<div class="contenedor">
+		<h2>REGISTRO</h2>
+		<p>Regístrate para compartir lo que más te gusta.
+		<br>
+		También puedes acceder aquí utilizando tu cuenta de Facebook o Twitter :)</p>
+		<div class="social">
+			<a class="face" href="#">REGISTRAR CON FACEBOOK</a>
+			<a class="tweet" href="#">REGISTRAR CON TWITTER</a>
+		</div>
+		<div class="puntos">
+			<span>o</span>
+		</div>
+		<form action=”rutaArchivoQueRecibeDatos.php” method=”POST” enctype=””>
+			<input type="text" name="nombre" placeholder="Nombre">
+			<input type="text" name="apodo" placeholder="Apodo">
+			<input type="text" name="email" placeholder="Email">
+			<div class="bajo">
+				<p>Haciendo click en "Registrar", entiendes que te unes aceptando los <a class="texto">Términos de uso</a> y también nuestra <a class="texto">Política de privacidad</a>.</p>
+				<input type="submit" name="registrar" value="Registrar">
+			</div>
+		</form>
+
+	</div>
+</body>
+</html>
